@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Update Title</title>
+    <title>My Contacts</title>
 
     <!-- link CSS stylesheet below -->
     <link rel="stylesheet" href="style.css">
@@ -14,7 +14,7 @@
     <!-- imports Google font -->
     <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
 </head>
-<body>
+<body class = "contact">
     <!-- Add navbar to link all html pages. -->
     <!-- 
         Add contact info, including:
@@ -23,16 +23,23 @@
         - LinkedIn (when completed)
         - Resume (when completed) 
     -->
-    <nav>
-        <button class="btn">Home</button>
-        <button class="btn">About Me</button>
-        <button class="btn">Projects</button>
-        <button class="btn">Contact</button>
-    </nav>
+  <nav>
+      <button class="btn btn1 " onclick = "window.location.href = 'index.html';" >Home</button>
+      <button class="btn btn2" onclick = "window.location.href = 'about.html';" >About Me</button>
+      <button class="btn btn3" onclick = "window.location.href = 'projects.html';" >Projects</button>
+      <button class="btn btn4" onclick = "window.location.href = 'contact.html';" >Contact</button>
+  </nav>
 
     <div class="content">
-        <p>Your Contact Banner</p>
-        <p>Any message you want to put.</p>
+        <p>Contacts:</p>
+        <p>
+          <ul>
+            <li><u><b>Email:</b></u> m6441h@gmail.com</li>
+            <li><a href = "https://github.com/mherrera8" class = "link" target = "_blank"><u><b>GitHub:</b></u></a>  mherrera8</li>
+            <li><a href = "https://replit.com@MelaniaHerrera" class = link target = "_blank"><u><b>Replit:</b></u></a> @MelaniaHerrera</li>
+          </ul>
+          
+        </p>
     </div>
     <br>
     <br>
